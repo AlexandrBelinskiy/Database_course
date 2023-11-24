@@ -3,16 +3,3 @@
 */
 
 SELECT * FROM "Production"."WorkOrder";
-
-
-
-
-
-
-
-
-
-
-
-
-

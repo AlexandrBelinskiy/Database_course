@@ -4,17 +4,3 @@
 
 SELECT "ProductID", "StartDate", "EndDate", "ListPrice"
 FROM "Production"."ProductListPriceHistory";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
