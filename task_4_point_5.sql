@@ -17,5 +17,6 @@ WHERE
             "Production"."Product" p2
         WHERE 
             p2."Style" = "Production"."Product"."Style"
-            AND p2."Style" IS NOT NULL
+            AND p2."Style" IS NOT NULL 
+			AND p2."ListPrice" > 0
     );
