@@ -5,7 +5,7 @@ BEGIN
         (
             id BIGINT NOT NULL DEFAULT nextval('cars_id_seq'::regclass),
             brand VARCHAR(255),
-            insurance_expiration_date VARCHAR(255),
+            insurance_expiration_date DATE,
             mileage INTEGER,
             repair_required BOOLEAN,
             year_of_manufacture INTEGER,
